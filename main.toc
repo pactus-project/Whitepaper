@@ -1,0 +1,36 @@
+\thispagestyle {empty}
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Executive Summary}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Introduction}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Pactus: The future of the Decentralization}{6}{chapter.3}%
+\contentsline {subsection}{What is Pactus?}{6}{section*.2}%
+\contentsline {subsection}{Mission and Vision}{7}{section*.2}%
+\contentsline {subsection}{Why join Pactus?}{7}{section*.2}%
+\contentsline {chapter}{\numberline {4}Consensus Algorithm: Solid State Proof of Stake (SSPoS)}{8}{chapter.4}%
+\contentsline {subsection}{Overview}{8}{section*.3}%
+\contentsline {subsection}{Solid State Proof of Stake algorithm}{10}{figure.caption.5}%
+\contentsline {subsubsection}{Block Creation}{10}{figure.caption.5}%
+\contentsline {subsubsection}{Change-Proposer}{12}{figure.caption.6}%
+\contentsline {subsubsection}{Comparison}{13}{equation.4.0.2}%
+\contentsline {subsection}{Specification}{14}{equation.4.0.2}%
+\contentsline {subsection}{Sortition Algorithm}{14}{equation.4.0.2}%
+\contentsline {subsubsection}{Verifiable Random Function}{14}{equation.4.0.2}%
+\contentsline {subsubsection}{Sortition Seed}{16}{Item.3}%
+\contentsline {subsubsection}{Sortition Probability}{17}{Item.3}%
+\contentsline {subsubsection}{FAQ}{18}{Item.3}%
+\contentsline {subsection}{Committee}{18}{Item.3}%
+\contentsline {subsubsection}{Proposer Selection}{18}{figure.caption.7}%
+\contentsline {subsubsection}{Adding Validators to the Committee}{18}{figure.caption.8}%
+\contentsline {subsubsection}{Security of the Committee}{19}{figure.caption.8}%
+\contentsline {subsubsection}{FAQ}{20}{figure.caption.8}%
+\contentsline {subsection}{Consensus Parameters}{21}{figure.caption.8}%
+\contentsline {chapter}{\numberline {5}Roadmap of Pactus}{23}{chapter.5}%
+\contentsline {subsection}{Alpha Phase: 2020 to 2022 (The Birth of an Idea)}{23}{section*.9}%
+\contentsline {subsection}{Beta Phase: 2022 to 2024 (The Establishment)}{23}{section*.9}%
+\contentsline {subsection}{Gamma Phase: 2024 to 2025 (We Have a Dream)}{24}{section*.9}%
+\contentsline {subsection}{Delta Phase: 2025 (Smart Contract)}{26}{section*.9}%
+\contentsline {chapter}{\numberline {6}Tokenomics of Pactus}{27}{chapter.6}%
+\contentsline {subsection}{Genesis Coins}{27}{section*.10}%
+\contentsline {subsection}{Block Rewards}{28}{section*.10}%
+\contentsline {chapter}{\numberline {7}Conclusion}{29}{chapter.7}%
+\contentsfinish 
