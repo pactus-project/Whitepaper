@@ -145,9 +145,10 @@ Pactus consensus algorithms has two phases: Block creation phase and change prop
 The block creation phase in Pactus consensus algorithm includes these three steps1: \emph{Propose}, \emph{Prepare} and \emph{Precommit}. The protocol proceeds in rounds $r = 0, 1, 2, \ldots$.
 
 
-\noindent \emph{Propose Step:} f validator $i$ accepts the proposal, it enters the prepare step and signs and broadcasts the prepare message to all other validators. Otherwise, it does nothing. The prepare message has this form:
+\noindent \emph{Propose Step:} In each round $r$  one validator is the proposer and the others act as validators. The proposer $p$ collects transactions and creates a proposal block $B$ It signs and broadcasts a proposal message with the \textbf{proposed} block piggybacked to all the validators. Propose message has this form:
+
 \begin{equation*}
-  \langle \text{PREPARE},h,r,d \rangle_{\sigma_i}
+    \langle\langle \text{PROPOSE},h,r \rangle_{\sigma_p},B\rangle
 \end{equation*}
 where
 \begin{itemize}
