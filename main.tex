@@ -16,7 +16,7 @@
 \cover     {resources/novel_front.pdf}{resources/novel_back.pdf}
 \license   {CC}{by-nc-sa}{3.0}
 \publisher {Pactus Blockchain}
-\edition   {1}{March 2024 (Version 1.0)}
+\edition   {1}{October 2025 (Version 1.4)}
 \dedicate  {all the people who try to make the world a better place to live in.}{Together we can build the decentralized Future.}
 \keywords  {Pactus, Blockchain, Fairness, Consensus}
 
@@ -107,7 +107,7 @@ From time to time, one of the validators is chosen by the others to collect all 
 To solve this problem, some blockchains use the concept of “delegators”. In Delegated Proof of Stake, users entrust their stakes to a small group of “delegates”. Figure~\ref{fig:dpos} shows the overview of Delegated Proof of Stake. These delegates are responsible for validating transactions and creating blocks. The number of delegates is limited to ensure accountability and efficiency in the validation process.
 
 The delegation model puts a lot of trust in the hands of a small number of delegates, which goes against the principle of “don’t trust, verify”.
-	
+
 \textbf{Pactus Algorithm:} Pactus introduced a mechanism that doesn’t rely on delegation, we call it Solid State Proof of Stake. The SSPoS is a state machine replication with Byzantine fault tolerance, shown in Figure~\ref{fig:pcs}. The Pactus consensus algorithm starts with the block creation phase. In this phase one validator acts as the proposer. The proposer collects all the transactions, creates a block, and proposes it to other validators.
 
 %
@@ -601,43 +601,62 @@ Pactus has a total supply of 42 million genesis coins, and each coin is divided 
   1 \  PAC &= 10^9 \  SatoshiPAC
 \end{align}
 
-The initial allocation of Genesis Coins in the Pactus blockchain is as follows:
+The coin allocation in the Pactus blockchain is distributed as follows:
 
-%
-%\begin{tabular}{|p{2.1cm}|p{1.7cm}|p{2.5cm}|p{2cm}|p{2.5cm}|  }
-% \hline
-% \textbf{Category} & \textbf{Coin Allocation} & \textbf{Percentage}\\
-% \hline
-%     Treasury & 21 Million coins & 50\%  \\
-% \hline
-%     Foundation & 8.4 Million coins & 20\%  \\
-% \hline
-%     VC Allocation & 6.3 Million coins & 15\%  \\
-% \hline
-%     Team and Operations & 4.2 Million coins & 10\%  \\
-% \hline
-%     Community & 2.1 Million coins & 5\%  \\
-% \hline
-%\end{tabular}
-%
-%The genesis coins are distributed as follows:
+\begin{table}[H]
+  \centering
+  \caption{Coin Allocation for Pactus}
+  \begin{tabular}{|l|>{\raggedright\arraybackslash}p{9.2cm}|l|c|}
+    \hline
+			\textbf{Title} & \textbf{Address} & \textbf{Coin Allocation} & \textbf{\%} \\
+    \hline
+    Treasury & \texttt{000000000000000000000000000000000000000000} & 33.6 Million coins & 80\% \\
+    \hline
+    VC Allocation & \href{https://pacviewer.com/address/pc1zprhnvcsy3pthekdcu28cw8muw4f432hkwgfasv}{\texttt{pc1zprhnvcsy3pthekdcu28cw8muw4f432hkwgfasv}} & 6.3 Million coins & 15\% \\
+    \hline
+    Community & \href{https://pacviewer.com/address/pc1zs64vdggjcshumjwzaskhfn0j9gfpkvche3kxd3}{\texttt{pc1zs64vdggjcshumjwzaskhfn0j9gfpkvche3kxd3}} & 2.1 Million coins & 5\% \\
+    \hline
+  \end{tabular}
+\end{table}
+
+{\footnotesize \textit{Note:} This chart reflects the current allocation after the activation of \href{https://pips.pactus.org/PIPs/pip-43}{PIP-43}.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{coins.png}
+	\caption{Pactus coin allocation }
+	\label{fig:coins}
+	\centering
+\end{figure}
+
 \begin{itemize}
   \item
-    Treasury Account: The Treasury account is a special account in the Pactus blockchain that holds $21$ million coins at the genesis time. The treasury address is defined as: 000000000000000000000000000000000000000000. The address type is 0, and therefore, it doesn’t have any key pair associated with it. Every time a block is created, one coin from the Treasury account transfers to the proposer account as a block reward.
+    Treasury Account: The Treasury account is a special account in the Pactus blockchain that holds $33.6$ million coins at the genesis time. The treasury address is defined as: 000000000000000000000000000000000000000000. The address type is 0, and therefore, it doesn’t have any key pair associated with it. Every time a block is created, one coin from the Treasury account transfers to the proposer account as a block reward.
 
     Treasury coins are distributed as block rewards to the block proposers. Every 10 seconds, one coin from the Treasury account transfers to the block proposer account. This process is called "coin minting". As a result, the total number of Pactus coins in circulation gradually increases over time as new blocks are added to the blockchain. Every day, 8,640 coins are minted, resulting in approximately 3 million coins being minted annually by the Treasury account.
-
-  \item
-    Foundation: The foundation is the Pactus Foundation, which is a non-profit organization that oversees the governance and the direction of the Pactus project. The foundation is responsible for conducting research and development, fostering the community and the ecosystem, and promoting the Pactus project. The foundation receives 20\% of the genesis coins, or 8.4 million coins.
   \item
     VC Allocation: The VC allocation is the fund that is raised from the venture capitalists and the investors who support the Pactus project. The VC allocation is used to finance the initial development and the launch of the Pactus platform. The VC allocation receives 15\% of the genesis coins, or 6.3 million coins.
-  \item
-    Team and Operations: The team and operations are the people who are involved in the creation and the maintenance of the Pactus platform, such as the developers, the designers, the testers, the marketers, and the administrators. The team and operations receive 10\% of the genesis coins, or 4.2 million coins.
   \item
     Community: The community is the network of users, developers, validators, and supporters who participate in and contribute to the Pactus ecosystem. The community receives 5\% of the genesis coins, or 2.1 million coins. The community also receives various rewards and incentives for their involvement and engagement in the Pactus project.
 \end{itemize}
 
-\subsection{Block Rewards} These are the coins that are minted and distributed to the validators who create and sign new blocks on the Pactus blockchain. Block reward in Pactus is fixed, and it is always one coin per block. This flat reward scheme helps to ensure simplicity, fairness and better coin distribution. The block rewards account for 50\% of the total supply, or 21 million coins.
+\subsection{Block Rewards} Every 10 seconds, one coin from the Treasury account is distributed as a block reward. This process is called “coin minting”. As a result, the total number of Pactus coins in circulation gradually increases over time as new blocks are added to the blockchain. Every day, 8,640 coins are minted, resulting in approximately 3 million coins being minted annually by the Treasury account.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pactus-reward-distribution.png}
+	\caption{Pactus reward distribution }
+	\label{fig:pactus-reward-distribution}
+	\centering
+\end{figure}
+
+\noindent The reward split mechanism, introduced in PIP-43, modifies how block rewards are distributed in Pactus:
+\begin{itemize}
+  \item \textbf{70\% to Validators:} The validator who proposes a block receives 0.7 coins as their reward.
+  \item \textbf{30\% to Pactus Foundation:} The remaining 0.3 coins are distributed to the Pactus Foundation addresses.
+\end{itemize}
+This mechanism enhances sustainability and trust in the Pactus economy by providing predictable, transparent funding for the foundation's operations and ecosystem growth.\\
+More: \href{https://pips.pactus.org/PIPs/pip-43}{PIP-43}
 
 
 \h{Conclusion}
