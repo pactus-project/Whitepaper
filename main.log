@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.30)  7 OCT 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.30)  8 OCT 2025 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,28 +1118,28 @@ Package pdftex.def Info: coins.png  used on input line 626.
 (pdftex.def)             Requested size: 301.12425pt x 186.19516pt.
 [27
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [28 <./coins.png>]
-<pactus-reward-distribution.png, id=302, 736.7525pt x 452.69125pt>
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<pactus-reward-distribution.png, id=296, 736.7525pt x 452.69125pt>
 File: pactus-reward-distribution.png Graphic file (type png)
 <use pactus-reward-distribution.png>
-Package pdftex.def Info: pactus-reward-distribution.png  used on input line 647.
+Package pdftex.def Info: pactus-reward-distribution.png  used on input line 645.
 (pdftex.def)             Requested size: 368.37535pt x 226.34506pt.
- [29 <./pactus-reward-distribution.png>]
+ [28 <./coins.png>] [29 <./pactus-reward-distribution.png>]
 Chapter 7.
 [30
 
 ]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 669.
+(Font)              scaled to size 17.28pt on input line 667.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 669.
+(Font)              scaled to size 17.28pt on input line 667.
 
 
 pdfTeX warning: pdflatex (file ./resources/novel_back.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <resources/novel_back.pdf, id=315, 614.295pt x 794.97pt>
 File: resources/novel_back.pdf Graphic file (type pdf)
 <use resources/novel_back.pdf>
-Package pdftex.def Info: resources/novel_back.pdf  used on input line 669.
+Package pdftex.def Info: resources/novel_back.pdf  used on input line 667.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 [31
 
@@ -1170,7 +1170,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (32 pages, 390812 bytes).
+Output written on main.pdf (32 pages, 390260 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  320 compressed objects within 4 object streams
